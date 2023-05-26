@@ -1,0 +1,282 @@
+export default data = [
+  {
+    id: "001",
+    product: "Jade Plant",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo01.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "002",
+    product: "Aloe Vera",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo02.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "003",
+    product: "Echeveria",
+    price: "129",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo03.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "004",
+    product: "Haworthia",
+    price: "159",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo04.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "005",
+    product: "String of Pearls",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo05.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "006",
+    product: "Sempervivum",
+    price: "109",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo06.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "007",
+    product: "Burro's Tail",
+    price: "189",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo07.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "008",
+    product: "Panda Plant",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo08.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "009",
+    product: "Aeonium",
+    price: "159",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo09.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "010",
+    product: "Agave",
+    price: "219",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo10.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "011",
+    product: "Snake Plant",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo11.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "012",
+    product: "Pothos",
+    price: "129",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo12.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "013",
+    product: "Sedum",
+    price: "159",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo13.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "014",
+    product: "Christmas Cactus",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo14.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "015",
+    product: "Zebra Plant",
+    price: "109",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo15.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "016",
+    product: "Hens and Chicks",
+    price: "189",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo16.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "017",
+    product: "Pilea",
+    price: "169",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo24.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "018",
+    product: "Aeonium Kiwi",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo18.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "019",
+    product: "Jelly Bean Succulent",
+    price: "139",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo19.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "020",
+    product: "Pachyveria",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo20.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "021",
+    product: "Ghost Plant",
+    price: "129",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo21.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "022",
+    product: "Echeveria Lola",
+    price: "159",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo22.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "023",
+    product: "Pleiospilos Nelii",
+    price: "179",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo23.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "024",
+    product: "Paddle Plant",
+    price: "189",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo24.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "025",
+    product: "Aloe Polyphylla",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo03.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "026",
+    product: "Lithops",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo04.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "027",
+    product: "Haworthia Cooperi",
+    price: "109",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo05.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "028",
+    product: "Aeonium Zwartkop",
+    price: "199",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo06.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "029",
+    product: "Pachypodium Lamerei",
+    price: "189",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo07.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "030",
+    product: "Euphorbia Obesa",
+    price: "139",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo08.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "031",
+    product: "Moon Cactus",
+    price: "169",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo09.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "032",
+    product: "Crassula Ovata",
+    price: "159",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo10.jpg?raw=true",
+    size: "big",
+  },
+  {
+    id: "033",
+    product: "Panda Ear Succulent",
+    price: "149",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo11.jpg?raw=true",
+    size: "small",
+  },
+  {
+    id: "034",
+    product: "Senecio Rowleyanus",
+    price: "109",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo12.jpg?raw=true",
+    size: "medium",
+  },
+  {
+    id: "035",
+    product: "Kalanchoe Tomentosa",
+    price: "189",
+    photo:
+      "https://github.com/RadioRambo/ecommerce/blob/main/frontend/data/photos/Photo13.jpg?raw=true",
+    size: "big",
+  },
+];
