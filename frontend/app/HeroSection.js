@@ -13,9 +13,12 @@ export default function HeroSection() {
               optio cupiditate rem dolore? Inventore delectus excepturi
               accusamus repellat!
             </p>
-            <button className="bg-green-700 text-white font-semibold py-2 px-6 rounded-2xl">
+            <a
+              href="./products"
+              className="bg-green-700 text-white font-semibold py-2 px-6 rounded-2xl"
+            >
               Shop Now
-            </button>
+            </a>
           </div>
         </div>
       </div>

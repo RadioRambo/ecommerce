@@ -12,8 +12,14 @@ export default function RootLayout({ children }) {
         <div className=" ">
           <nav className="bg-green-200  ">
             <div className="container mx-auto flex justify-between items-center py-2 md:px-20 px-4 ">
-              <p className="font-bold text-xl">SUCCULENT STORE</p>
-              <div className="flex items-center">Menu</div>
+              <a href="./" className="font-bold text-xl">
+                SUCCULENT STORE
+              </a>
+              <div className="flex justify-between gap-4">
+                <div className="">Login</div>
+                <div className="">Orders</div>
+                <div className="">Cart</div>
+              </div>
             </div>
           </nav>
           <div className=" ">{children}</div>
