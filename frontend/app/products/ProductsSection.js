@@ -1,11 +1,11 @@
 "use client";
 
 import { useContext } from "react";
-import data from "../../data/data.js";
+import data  from "../../data/data.js";
 import { CartContext } from "../CartContext.js";
 
 export default function ProductsSection() {
-  const { cartItems, addToCart } = useContext(CartContext);
+  const { addToCart } = useContext(CartContext);
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-4 gap-y-12 align-middle justify-between px-4 md:px-20 ">
       {data.map((product) => (

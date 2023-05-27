@@ -1,4 +1,4 @@
-export default data = [
+const data = [
   {
     id: "001",
     product: "Jade Plant",
@@ -280,3 +280,5 @@ export default data = [
     size: "big",
   },
 ];
+
+export default data;
