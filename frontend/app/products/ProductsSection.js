@@ -1,14 +1,21 @@
 "use client";
 
 import { useContext } from "react";
-import data  from "../../data/data.js";
+import data from "../../data/data.js";
 import { CartContext } from "../CartContext.js";
+import { FilterContext } from "./FilterContext.js";
 
 export default function ProductsSection() {
+  const { filteredOption } = useContext(FilterContext);
+  const filteredData =
+    filteredOption === "all"
+      ? data
+      : data.filter((product) => product.size === filteredOption);
+
   const { addToCart } = useContext(CartContext);
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-4 gap-y-12 align-middle justify-between px-4 md:px-20 ">
-      {data.map((product) => (
+      {filteredData.map((product) => (
         <div key={product.id} className=" bg-green-600 p-4 w-[256px] ">
           <div className="h-fit w-full p-2 bg-green-300 shadow-lg">
             <img src={product.photo} />
