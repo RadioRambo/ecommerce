@@ -1,0 +1,20 @@
+FROM node:latest
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+RUN apt-get update && apt-get install -y mongodb-clients
+
+COPY data.json .
+
+RUN mongoimport --host mongodb --username root --password example --authenticationDatabase admin --db products --collection yourcollectionname --file ./data.json
+
+RUN mongo --host mongodb --username root --password example --authenticationDatabase admin --eval 'db.createUser({user: "yourusername", pwd: "yourpassword", roles: [{role: "readWrite", db: "yourdbname"}]})'
+
+
+CMD [ "npm", "start" ]
