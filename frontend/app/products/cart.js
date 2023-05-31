@@ -15,20 +15,20 @@ export default function Cart() {
   }, [cartItems]);
 
   return (
-    <div className=" flex flex-col justify-between h-96 shadow-2xl  md:mx-20   bg-green-900 p-4 w-96 ">
+    <div className="flex flex-col justify-between p-4 w-96 h-96 bg-green-900 shadow-2xl  md:mx-20">
       <div className="overflow-y-scroll overscroll-contain">
         {cartItems.map((item) => (
           <div
             key={item.id}
-            className="px-4 py-2 m-2 text-xl bg-green-700 text-green-50 flex justify-between"
+            className="flex justify-between px-4 py-2 m-2 text-xl text-green-50 bg-green-700"
           >
-            <div className="font-normal ">{item.product}</div>
+            <div className="font-normal">{item.product}</div>
             <div className="">₹ {item.price}</div>
           </div>
         ))}
       </div>
       <div className="">
-        <div className="px-4 py-2 mt-8 bg-green-950  text-2xl text-green-50 flex justify-between">
+        <div className="flex justify-between px-4 py-2 mt-8 text-2xl text-green-50 bg-green-950">
           <div>Total</div>
           <div>₹ {total}</div>
         </div>

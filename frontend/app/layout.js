@@ -20,21 +20,24 @@ export default function RootLayout({ children }) {
         <body
           className={`${inter.className} selection:bg-green-950 selection:text-green-100 font-semibold  `}
         >
-          <div className=" ">
-            <nav className="bg-green-200  ">
-              <div className="container mx-auto flex justify-between items-center py-2 md:px-20 px-4 ">
-                <a href="./" className="font-bold text-xl">
+          <div className="">
+            <nav className="bg-green-200">
+              <div className="container flex justify-between items-center px-4 py-2 mx-auto md:px-20">
+                <a href="./" className="text-xl font-bold">
                   SUCCULENT STORE
                 </a>
-                <div className="flex justify-between gap-8">
+                <div className="flex gap-8 justify-between">
                   <div className="">Login</div>
                   <div className="-mr-2">Orders</div>
                   <div>
-                    <div className="relative w-12  text-end " onClick={toggleCart}>
+                    <div
+                      className="relative w-12 text-end"
+                      onClick={toggleCart}
+                    >
                       {isOpen ? "Close" : "Cart"}
                     </div>
                     {isOpen && (
-                      <div className="absolute top-10 right-0 ">
+                      <div className="absolute right-0 top-10">
                         <Cart />
                       </div>
                     )}
@@ -42,7 +45,7 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
             </nav>
-            <div className=" ">{children}</div>
+            <div>{children}</div>
           </div>
         </body>
       </html>

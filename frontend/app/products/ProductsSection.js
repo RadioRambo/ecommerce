@@ -14,17 +14,17 @@ export default function ProductsSection() {
 
   const { addToCart } = useContext(CartContext);
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3  xl:grid-cols-4 2xl:grid-cols-5 gap-y-12 place-items-center px-4 md:px-20 ">
+    <div className="grid grid-cols-1 gap-y-12 place-items-center px-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 md:px-20">
       {filteredData.map((product) => (
         <div key={product.id} className=" bg-green-600 p-4 w-[256px] ">
-          <div className="h-fit w-full p-2 bg-green-300 shadow-lg">
+          <div className="p-2 w-full bg-green-300 shadow-lg h-fit">
             <img src={product.photo} />
           </div>
-          <div className="mt-8 bg-green-300/20 p-2">
-            <p className="text-xl font-normal mb-1 whitespace-nowrap text-green-50">
+          <div className="p-2 mt-8 bg-green-300/20">
+            <p className="mb-1 text-xl font-normal text-green-50 whitespace-nowrap">
               {product.product}
             </p>
-            <div className="flex items-center justify-between">
+            <div className="flex justify-between items-center">
               <p className="text-sm font-normal">
                 <span className="text-green-900">Rs</span> {product.price}
               </p>
@@ -32,7 +32,7 @@ export default function ProductsSection() {
                 onClick={() => {
                   addToCart(product);
                 }}
-                className="bg-green-800 text-white text-sm shadow-sm py-1 px-4"
+                className="px-4 py-1 text-sm text-white bg-green-800 shadow-sm hover:bg-green-900 active:bg-green-800"
               >
                 Add to cart
               </button>
