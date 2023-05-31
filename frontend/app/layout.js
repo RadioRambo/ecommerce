@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
         >
           <div className="">
             <nav className="bg-green-200">
-              <div className="container flex justify-between items-center px-4 py-2 mx-auto md:px-20">
+              <div className="container flex gap-4 justify-between px-4 py-2 mx-auto md:justify-between md:items-center md:flex-row md:px-20">
                 <a href="./" className="text-xl font-bold">
                   SUCCULENT STORE
                 </a>
-                <div className="flex gap-8 justify-between">
+                <div className="flex gap-3 justify-between md:gap-8 sm:gap-4">
                   <div className="">Login</div>
                   <div className="-mr-2">Orders</div>
                   <div>
