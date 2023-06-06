@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import { CartProvider } from "./CartContext";
 import Cart from "./Cart";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Login from "./Login";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +16,8 @@ export default function RootLayout({ children }) {
   function toggleCart() {
     setIsOpen(!isOpen);
   }
+  const router = useRouter();
+
   return (
     <CartProvider>
       <html lang="en">
@@ -27,7 +31,7 @@ export default function RootLayout({ children }) {
                   SUCCULENT STORE
                 </a>
                 <div className="flex gap-3 justify-between md:gap-8 sm:gap-4">
-                  <div className="">Login</div>
+                  <Login />
                   <div className="-mr-2">Orders</div>
                   <div>
                     <div
